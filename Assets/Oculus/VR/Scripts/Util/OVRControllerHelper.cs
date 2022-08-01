@@ -71,7 +71,7 @@ public class OVRControllerHelper : MonoBehaviour
 		Quest2 = 3,
 	}
 
-	private ControllerType activeControllerType = ControllerType.Rift;
+	private ControllerType activeControllerType = ControllerType.Quest2;
 
 	private bool m_prevControllerConnected = false;
 	private bool m_prevControllerConnectedCached = false;
@@ -102,7 +102,7 @@ public class OVRControllerHelper : MonoBehaviour
 				activeControllerType = ControllerType.Quest2;
 				break;
 			default:
-				activeControllerType = ControllerType.QuestAndRiftS;
+				activeControllerType = ControllerType.Quest2;
 				break;
 		}
 

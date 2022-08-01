@@ -80,6 +80,7 @@ namespace BNG {
         }
 
         public void Update() {
+            uiSystem.Process();
             data = uiSystem.EventData;
 
             // Can bail early if not looking at anything
